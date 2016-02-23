@@ -6,5 +6,7 @@ This utility will help to create sprite image and related CSS file.
 It is console application, which takes source image directory as the input, and create sprite image and CSS file to the target directory provided. If no target directory provided, it will take the application executing path and creates an output folder and generates the files. 
 
 `C:\spriteimages.exe --source C:\Sample` - Generates sprite image and CSS files under C:\Output folder.
+
 `C:\spriteimages.exe --source C:\Sample --target C:\Sample\Sprite` - Generates sprite image and CSS files under C:\Sample\Sprite folder.
+
 `C:\spriteimages.exe --source C:\Sample --target C:\Sample\Sprite --useClass` - Generates sprite image and CSS files under C:\Sample\Sprite folder. The generated CSS element names will be with "." otherwise it will be with "#"
