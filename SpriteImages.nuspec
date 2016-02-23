@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SpriteImages</id>
+    <version>1.0.0</version>
+    <authors>Anuraj.P</authors>
+    <owners>Anuraj.P</owners>
+    <licenseUrl>https://raw.githubusercontent.com/anuraj/SpriteImages/master/license</licenseUrl>
+    <projectUrl>https://github.com/anuraj/SpriteImages</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/anuraj/SpriteImages/master/SpriteImages.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A dotnet application to create image sprite</description>
+    <releaseNotes>Inital Release.</releaseNotes>
+    <copyright>Copyright © 2016 dotnetthoughts.net</copyright>
+    <tags>Sprite CSS Image Web Optimization</tags>
+  </metadata>
+</package>
