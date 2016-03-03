@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SpriteImages")]
-[assembly: AssemblyDescription("A dotnet application to create CSS sprite from a directory")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("dotnetthoughts")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SpriteImages")]
-[assembly: AssemblyCopyright("Copyright © 2016 dotnetthoughts.net")]
-[assembly: AssemblyTrademark("dotnetthoughts.net")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("250f17b6-a8cd-49dd-9fc0-63b1eb7872e8")]
+[assembly: Guid("70fb3ee4-bcaa-4029-98b6-10f209014e88")]
 
 // Version information for an assembly consists of the following four values:
 //
