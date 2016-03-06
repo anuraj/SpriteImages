@@ -80,6 +80,66 @@ namespace SpriteImages
         }
         private static void GenerateSprite(string[] files, string targetDirectory)
         {
+            //    var finalImage = Path.Combine(targetDirectory, "SpriteImage.png");
+            //    var imageHeights = new List<int>();
+            //    var styles = new List<Style>();
+            //    var index = 0;
+            //    var width = 0;
+            //    foreach (var file in files)
+            //    {
+            //        using (var img = Image.FromFile(file))
+            //        {
+            //            imageHeights.Add(img.Height);
+            //            width += img.Width;
+            //        }
+            //    }
+
+            //    imageHeights.Sort();
+            //    var height = imageHeights[imageHeights.Count - 1];
+            //    using (var img3 = new Bitmap(width, height))
+            //    {
+            //        using (var g = Graphics.FromImage(img3))
+            //        {
+            //            g.Clear(Color.Transparent);
+            //            foreach (var file in files)
+            //            {
+            //                var img = Image.FromFile(file);
+            //                if (index == 0)
+            //                {
+            //                    g.DrawImage(img, new Point(0, 0));
+            //                    index++;
+            //                    width = img.Width;
+            //                    styles.Add(new Style
+            //                    {
+            //                        Height = img.Height,
+            //                        Width = img.Width,
+            //                        Name = file,
+            //                        Left = 0
+            //                    });
+            //                }
+            //                else
+            //                {
+            //                    g.DrawImage(img, new Point(width, 0));
+            //                    width += img.Width;
+            //                    styles.Add(new Style
+            //                    {
+            //                        Height = img.Height,
+            //                        Width = img.Width,
+            //                        Name = file,
+            //                        Left = width - img.Width
+            //                    });
+            //                }
+            //                img.Dispose();
+            //            }
+            //        }
+            //        img3.Save(finalImage, ImageFormat.Png);
+
+            //        CreateCSS(styles, targetDirectory);
+            //        MessageBox.Show("Generated sprite image and css successfully", "SpriteImages",
+            //            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    }
+            //}
+
             var images = new List<Bitmap>();
             var styles = new List<Style>();
             Bitmap finalImage = null;
@@ -113,7 +173,7 @@ namespace SpriteImages
                             Height = image.Height,
                             Width = image.Width,
                             Name = image.Tag.ToString(),
-                            Left = width - image.Width
+                            Left = offset - image.Width
                         });
                     }
                 }
